@@ -24,9 +24,13 @@ const users = [
 ```
 
 `name`: Kullanıcının adı ve soyadı
-`photo`: Kullanıcının fotoğrafının dosya adı veya URL'si
+
+`photo`: Kullanıcının fotoğrafının dosya adı
+
 `desc`: Kullanıcının açıklaması
+
 `skills`: Kullanıcının yetenekleri (bir dizi şeklinde)
+
 Yukarıdaki örnekteki gibi her bir kullanıcıyı users dizisine ekleyebilirsiniz. Projeyi kullanmadan önce, mevcut kullanıcıları güncelleyin veya yeni kullanıcılar ekleyin.
 
 ## Kurulum
