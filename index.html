@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Person Search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="card-container">
+        <div class="card">
+            <h1 class="card-title"></h1>
+            <h4 id="card-name"></h4>
+            <p id="card-desc"></p>
+            <img id="card-photo">
+            <h4>Yetenekler</h4>
+            <p id="card-skills"></p>
+            <button class="tekrarButton">Tekrar Ara</button>
+
+        </div>
+    </div>
+
+
+    <div class="arama">
+        <h1 class="card-title">Developer Search</h1>
+
+        <div class="icerik">
+
+            <p>Aranacak Kişinin Adını Ve Soyadını Giriniz :</p>
+
+            <input type="text" id="input" list="arananlar">
+            <datalist id="arananlar">
+                <option value="First Person">
+                <option value="Second Person">
+                <option value="Third Person">
+            </datalist>
+
+            <button id="aButton">Ara</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
