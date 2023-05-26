@@ -8,7 +8,7 @@ const users = [
   {
     name: "Second Person",
     photo: "img2.jpg",
-    desc: "Front-End Developer",
+    desc: "DESC",
     skills: ["Skill 1", "Skill 2", "Skill 3"]
   },
   {
